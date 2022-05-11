@@ -1,7 +1,7 @@
 package ru.netology.unit;
 
 public class CashbackHacker {
-        private final int boundary = 1000;
+        public final int boundary = 1000;
 
         public int remain(int amount) {
             return boundary - amount % boundary;
